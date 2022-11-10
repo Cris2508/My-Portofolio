@@ -1,0 +1,9 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    .intro__image {
+        width: 60%;
+    }
+}

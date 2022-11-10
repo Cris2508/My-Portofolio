@@ -1,22 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@use "footer";
+@use "./Layout/footer";
 @use "variables" as *;
 @use "reset";
-
-
-.nav {
-    display: none;
-    background-color: $background-color;
-}
-
-.intro{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    .intro__image{
-        width: 60%;
-    }
-}
+@use "./Layout/nav";
+@use "./Layout/intro";
 
 @media screen and (min-width: 1024px) {
     .nav {
