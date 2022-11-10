@@ -1,8 +1,9 @@
 @use "./Layout/footer";
-@use "variables" as *;
-@use "reset";
+@use "variables";
+@use "./Base/reset";
 @use "./Layout/nav";
 @use "./Layout/intro";
+@use "./Layout/about-me";
 
 @media screen and (min-width: 1024px) {
     .nav {
