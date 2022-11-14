@@ -2,25 +2,26 @@
     text-align: center;
     
     .intro__title {
-        text-align: center;
-        margin-top: 15%;
-        margin-bottom: 4%;
-        font-size: 30px;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        font-size: 15px;
         color: #1f1f25;
-        font-size: 30px;
-        font-weight: 900;
-        line-height: 90px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
         text-transform: inherit;
         width: 70%;
         .my-name {
             color: #fd4766;
+            text-align: left;
+            margin-top: 0%;
             }
         }
     
     .intro__description {
-        margin-top: 4%;
-        font-size: 25px;
-        text-transform: uppercase;
+        margin-top: 13%;
+        font-size: 45px;
         letter-spacing: 4px;
         display: inline-block;
         margin-bottom: 20px;
@@ -36,5 +37,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .intro__image {
+        display: block;
+    }    
 }

@@ -1,0 +1,199 @@
+@use "variables" as *;
+
+.projects__title {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.project1 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image1 {
+    width: 100%;
+  }
+
+  .project__text--content1 {
+    padding: 2rem;
+  }
+
+  .project1_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project1_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+.project2 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image2 {
+    width: 100%;
+  }
+
+  .project__text--content2 {
+    padding: 2rem;
+  }
+
+  .project2_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project2_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+.project3 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image3 {
+    width: 100%;
+  }
+
+  .project__text--content3 {
+    padding: 2rem;
+  }
+
+  .project3_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project3_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+.project4 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image4 {
+    width: 100%;
+  }
+
+  .project__text--content4 {
+    padding: 2rem;
+  }
+
+  .project4_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project4_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+.project5 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image5 {
+    width: 100%;
+  }
+
+  .project__text--content5 {
+    padding: 2rem;
+  }
+
+  .project5_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project5_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+.project6 {
+    width: 30rem;
+  background-color: $background-color;
+
+  .project__image6 {
+    width: 100%;
+  }
+
+  .project__text--content6 {
+    padding: 2rem;
+  }
+
+  .project6_heading {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .project6_paragraph {
+    color: $color;
+    margin-bottom: 1.75rem;
+  }
+
+  .project__button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $background-color;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

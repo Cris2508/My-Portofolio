@@ -6,14 +6,19 @@
         text-align: center;
         justify-content: center;
         margin-top: 8%;
+        color: rgb(53, 53, 53);
+        font-size: 2.5em;
+        margin-bottom: 8%;
 
     }
 
-    .profile-picture {
+    .profile__picture {
+        margin-top: 8%;
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        max-width: 100%; 
+        width: 400px;
+        height: 580px;
         margin-top: 8%;
     }
 
@@ -24,11 +29,17 @@
         text-align: center;
         justify-content: center;
         flex-direction: column;
+        color: rgb(53, 53, 53);
     }
 }
 
 p1 {
     margin-bottom: 3%;
+    font-size: larger;
+}
+
+p2 {
+    font-size: larger;
 }
 
 @media screen and (min-width: 1024px) {
