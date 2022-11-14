@@ -1,14 +1,6 @@
-@use "./Abstracts/variables";
 @use "reset";
 @use "nav";
 @use "intro";
 @use "about-me";
 @use "tehnical-skills";
 @use "footer";
-
-@media screen and (min-width: 1024px) {
-    .nav {
-        display: flex;
-    }
-    
-}

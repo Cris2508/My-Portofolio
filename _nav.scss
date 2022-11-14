@@ -1,4 +1,15 @@
-.nav {
+@use "variables" as *;
+
+.logo {
+    max-height: 60px;
+}
+
+.nav__list {
     display: none;
-    background-color: $background-color;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav__list {
+        display: block;
+    }
 }

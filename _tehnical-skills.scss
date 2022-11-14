@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+.section__title {
+    text-align: $text-align;
+    margin-top: 8%;
+}
+
+.section__subtitle {
+    text-align: $text-align;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+    
+}

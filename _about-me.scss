@@ -1,5 +1,36 @@
-.about-me__title {
-    display: flex;
-    align-items: center;
-    text-align: center;
+.about-me {
+
+    .about-me__title {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 8%;
+
+    }
+
+    .profile-picture {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%; 
+        margin-top: 8%;
+    }
+
+    .about-me__description {
+        margin-top: 8%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+p1 {
+    margin-bottom: 3%;
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
