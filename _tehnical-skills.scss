@@ -1,47 +1,60 @@
 @use "variables" as *;
 
 .tehnical__skills2 {
-    display: none;
+  display: none;
 }
 
-.tehnical__skills{
-    margin-top: 8%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 500px;
-    margin-bottom: 8%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.tehnical__skills {
+  margin-top: 8%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 8%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section__title {
-    text-align: $text-align;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  text-align: $text-align;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section__subtitle {
-    text-align: $text-align;
-    margin-top: 3%;
-    margin-bottom: 8%;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: $text-align;
+  margin-top: 3%;
+  margin-bottom: 8%;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 
 @media screen and (min-width: 1024px) {
-    .tehnical__skills {
-        display: none;
-    }
+  .tehnical__skills {
+    display: none;
+  }
 
-    .tehnical__skills2 {
-        display: block;
-        margin-top: 8%;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 8%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+  .tehnical__skills2 {
+    display: block;
+    margin-top: 6%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+  }
+
+  .section__subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }

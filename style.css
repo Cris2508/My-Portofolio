@@ -42,27 +42,36 @@ header {
   }
   .logo {
     display: flex;
-    color: #52cc79;
+    color: #282525;
     font-size: 1.5rem;
     margin: 0.5rem;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(205, 132, 181);
+    opacity: 0.6;
   }
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
-    background-color: #333;
+    font-size: 20px;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
   }
   .nav__list {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
+    padding: 1rem;
+    display: flexbox;
   }
   .nav__item {
     list-style: none;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
   }
 }
 .intro {
@@ -73,8 +82,9 @@ header {
   text-align: left;
   margin-top: 5%;
   margin-bottom: 0%;
+  margin-left: 10%;
   font-size: 15px;
-  color: #1f1f25;
+  color: #28282c;
   font-size: 40px;
   font-weight: 700;
   line-height: 60px;
@@ -88,6 +98,7 @@ header {
 }
 .intro .intro__description {
   margin-top: 13%;
+  margin-left: 8%;
   font-size: 45px;
   letter-spacing: 4px;
   display: inline-block;
@@ -106,16 +117,20 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-areas: "heading picture" "subheading picture";
+    margin-top: 90px;
   }
   .intro .intro__image {
     display: block;
     border-radius: 8px;
     grid-area: picture;
+    opacity: 0.9;
   }
   .intro .intro__title {
+    margin-left: 10%;
     grid-area: heading;
   }
   .intro .intro__description {
+    margin-left: 10%;
     grid-area: subheading;
   }
 }
@@ -160,6 +175,28 @@ p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (min-width: 1024px) {
+  .about-me {
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-areas: "picture title" "picture description" "picture description";
+  }
+  .about-me .about-me__title {
+    grid-area: title;
+    margin-bottom: 1px;
+    margin-right: 25%;
+  }
+  .about-me .about-me__description {
+    grid-area: description;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+  .about-me .profile__picture {
+    grid-area: picture;
+    margin-left: 10%;
+  }
+}
 .tehnical__skills2 {
   display: none;
 }
@@ -176,6 +213,7 @@ p2 {
 }
 
 .section__title {
+  color: rgb(53, 53, 53);
   text-align: center;
   margin-top: 8%;
   margin-bottom: 8%;
@@ -188,6 +226,7 @@ p2 {
   margin-bottom: 8%;
   font-size: larger;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 
 @media screen and (min-width: 1024px) {
@@ -196,22 +235,35 @@ p2 {
   }
   .tehnical__skills2 {
     display: block;
-    margin-top: 8%;
+    margin-top: 6%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+  }
+  .section__subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 .projects__title {
   text-align: center;
   margin-bottom: 8%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: rgb(53, 53, 53);
 }
 
 .project1 {
   width: 30rem;
   background-color: rgb(251, 240, 244);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .project1 .project__image1 {
   width: 100%;
@@ -223,16 +275,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project1 .project1_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project1 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 .project2 {
@@ -249,16 +308,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project2 .project2_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project2 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 .project3 {
@@ -275,16 +341,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project3 .project3_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project3 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 .project4 {
@@ -301,16 +374,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project4 .project4_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project4 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 .project5 {
@@ -327,16 +407,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project5 .project5_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project5 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 .project6 {
@@ -353,16 +440,23 @@ p2 {
   font-weight: 400;
   font-size: 2.25rem;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project6 .project6_paragraph {
   color: #303030;
   margin-bottom: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
 }
 .project6 .project__button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(251, 240, 244);
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
 }
 
 @media screen and (min-width: 1024px) {
