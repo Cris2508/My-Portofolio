@@ -30,11 +30,10 @@ header {
 
 @media screen and (min-width: 1024px) {
   .logo {
-    position: absolute;
     display: block;
-    color: #dcd264;
-    font-size: 35px;
-    line-height: 80px;
+    color: #52cc79;
+    font-size: 30px;
+    line-height: 100px;
     padding: 0 100px;
     font-weight: bold;
   }
@@ -48,15 +47,10 @@ header {
     list-style: none;
     box-sizing: border-box;
   }
-  .nav {
-    display: block;
-    background-color: #0082e6;
-    height: 80px;
-    width: 100%;
-  }
   .nav__list {
-    float: right;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
   }
 }
 .intro {
@@ -95,8 +89,9 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  .intro__image {
+  .intro .intro__image {
     display: block;
+    border-radius: 8px;
   }
 }
 .about-me .about-me__title {

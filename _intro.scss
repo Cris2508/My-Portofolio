@@ -1,5 +1,6 @@
 .intro {
-    text-align: center;
+    padding: 0;
+    margin: 0;
     
     .intro__title {
         text-align: left;
@@ -37,7 +38,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .intro {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
     .intro__image {
         display: block;
+        border-radius: 8px;
     }    
+}
+
+    
+
 }
