@@ -40,7 +40,15 @@ header {
   .mandala {
     display: none;
   }
-  .logo {
+  .navbar {
+    display: unset;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
+  }
+  .navbar .logo {
     display: flex;
     color: #282525;
     font-size: 1.5rem;
@@ -50,15 +58,7 @@ header {
     background-color: rgb(205, 132, 181);
     opacity: 0.6;
   }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    background-color: rgb(205, 132, 181);
-    text-decoration: none;
-  }
-  .nav__list {
+  .navbar .navbar__home {
     margin: 0;
     padding: 0;
     display: flex;
@@ -66,12 +66,37 @@ header {
     background-color: rgb(205, 132, 181);
     text-decoration: none;
     padding: 1rem;
-    display: flexbox;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .nav__item {
+  .navbar .navbar__about {
+    margin: 0;
+    padding: 0;
+    display: flex;
     list-style: none;
     background-color: rgb(205, 132, 181);
     text-decoration: none;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .navbar .navbar__projects {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .navbar .navbar__contact {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: rgb(205, 132, 181);
+    text-decoration: none;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
 .intro {
@@ -151,8 +176,9 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  height: 580px;
+  height: 600px;
   margin-top: 8%;
+  border-radius: 10px;
 }
 .about-me .about-me__description {
   margin-top: 8%;
@@ -465,14 +491,44 @@ p2 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-footer {
+.footer {
+  width: 100vw;
+  height: 13.5rem;
+  padding: 3rem 6rem 3rem 6rem;
   background-color: black;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  align-items: center;
+}
+.footer .footer__images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+.footer .footer__email {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  font-size: 1rem;
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .footer__email {
+    order: 1;
+    font-size: 1.5rem;
+  }
+  .footer .footer__images {
+    order: 2;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -19,12 +19,10 @@
     <img class="mandala" src="./images/mandala2.jpg" alt="mandala">
     <nav class="navbar">
       <h1 class="logo">Elena Ristea</h1>
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-        <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
-        <li class="nav__item"><a href="#contact" class="nav__link">Get in Touch</a></li>
-      </ul>
+      <a class="navbar__home" href="#home">Home</a></li>
+      <a class="navbar__about" href="#about">About Me</a></li>
+      <a class="navbar__projects" href="#projects">My Projects</a></li>
+      <a class="navbar__contact" href="#contact">Get in Touch</a></li>
     </nav>
   </header>
 
@@ -180,13 +178,13 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <ul class="social-links" id="contact">
-      <button type="button"> <img src="./images/github.jpg" height="40" width="40"></button>
-      <button type="button"> <img src="./images/linkedin.jpg" height="40" width="40"></button>
-      <button type="button"> <img src="./images/cv.jpg" height="40" width="40"></button>
-    </ul>
-    <a href="mailto:Elena.Ristea@nology.io" class="footer__link">Elena.Ristea@nology.io</a>
+  <footer id="get-in-touch" class="footer">
+    <div class="footer__images">
+      <img class="footer__images--github" src="images/Github.png" alt="Github Logo">
+      <img class="footer__images--linkedin" src="images/Linkedin.png" alt="LinkedIn Logo">
+      <img class="footer__images--cv" src="images/CV.png" alt="CV">
+    </div>
+    <a class="footer__email" href="mailto:Elena.Ristea@nology.io">Elena.Ristea@nology.io</a>
   </footer>
 
 </body>

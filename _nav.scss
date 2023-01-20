@@ -36,40 +36,67 @@ header {
     display: none;
   }
 
-  .logo {
-    display: flex;
-    color: #282525;
-    font-size: 1.5rem;
-    margin: 0.5rem;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(205, 132, 181);
-    opacity: 0.6;
-  }
-
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: unset;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
     font-size: 20px;
     background-color: rgb(205, 132, 181);
     text-decoration: none;
-  }
 
-  .nav__list {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    background-color: rgb(205, 132, 181);
-    text-decoration: none;
-    padding: 1rem;
-    display: flexbox;
-  }
+    .logo {
+      display: flex;
+      color: #282525;
+      font-size: 1.5rem;
+      margin: 0.5rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgb(205, 132, 181);
+      opacity: 0.6;
+    }
 
-  .nav__item {
-    list-style: none;
-    background-color: rgb(205, 132, 181);
-    text-decoration: none;
+    .navbar__home {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      background-color: rgb(205, 132, 181);
+      text-decoration: none;
+      padding: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar__about {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      background-color: rgb(205, 132, 181);
+      text-decoration: none;
+      padding: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar__projects {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      background-color: rgb(205, 132, 181);
+      text-decoration: none;
+      padding: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar__contact {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      background-color: rgb(205, 132, 181);
+      text-decoration: none;
+      padding: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
   }
 }
